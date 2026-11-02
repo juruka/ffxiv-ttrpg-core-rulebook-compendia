@@ -68,7 +68,7 @@ Save the extracted JSON under this module's `translations/<language>/` directory
 For example, a French Jobs translation belongs at:
 
 ```text
-Data/modules/ffxiv-ttrpg-core-rulebook-compendia/translations/fr/ffxiv-ttrpg-core-rulebook-compendia.axes-compendium-jobs.json
+Data/modules/ffxiv-ttrpg-rulebook-compendia-zh-tw/translations/fr/ffxiv-ttrpg-rulebook-compendia-zh-tw.axes-compendium-jobs.json
 ```
 
 Set Foundry's language to the matching language and reload the client. The module registers that language's directory automatically. For a quick test without changing the interface language, place a marked test translation in `translations/en/` while Foundry is set to English.

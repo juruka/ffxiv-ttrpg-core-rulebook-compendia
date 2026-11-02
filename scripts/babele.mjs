@@ -7,7 +7,7 @@ Hooks.once("babele.init", async (babele) => {
   Hooks.once("i18nInit", () => {
     const lang = game.settings.get("core", "language");
     const translationLang = lang.toLowerCase() === "zh-tw" ? "zh-tw" : lang;
-    babele.register({ module: "ffxiv-ttrpg-core-rulebook-compendia", lang, dir: `translations/${translationLang}` });
+    babele.register({ module: "ffxiv-ttrpg-rulebook-compendia-zh-tw", lang, dir: `translations/${translationLang}` });
   });
   babele.registerIdentityExtractors({
     ffxivKey: getContentKey,

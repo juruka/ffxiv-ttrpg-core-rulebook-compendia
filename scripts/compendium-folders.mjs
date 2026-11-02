@@ -1,4 +1,4 @@
-const MODULE_ID = "ffxiv-ttrpg-core-rulebook-compendia";
+const MODULE_ID = "ffxiv-ttrpg-rulebook-compendia-zh-tw";
 
 Hooks.once("init", () => {
   game.settings.register(MODULE_ID, "rulebookFolderVersion", {

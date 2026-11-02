@@ -3,7 +3,7 @@ import { getTranslationKey } from "../../../systems/ffxiv/module/helpers/content
 export function registerTranslationExports(TranslationExport, ExportKeys) {
   const exportData = TranslationExport.prototype.data;
   TranslationExport.prototype.data = async function (options = {}) {
-    if (!this.pack.collection.startsWith("ffxiv-ttrpg-core-rulebook-compendia.")) {
+    if (!this.pack.collection.startsWith("ffxiv-ttrpg-rulebook-compendia-zh-tw.")) {
       return exportData.call(this, options);
     }
     const mappedCompendium = options.mappedCompendium ?? this.mappedCompendium;

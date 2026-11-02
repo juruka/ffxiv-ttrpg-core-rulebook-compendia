@@ -1,6 +1,6 @@
 import { getTranslationKey } from "../../../systems/ffxiv/module/helpers/content-keys.mjs";
 
-const MODULE_ID = "ffxiv-ttrpg-core-rulebook-compendia";
+const MODULE_ID = "ffxiv-ttrpg-rulebook-compendia-zh-tw";
 
 function sourceId(document, collection) {
   const uuid = document?._stats?.compendiumSource ?? document?.flags?.core?.sourceId;
