@@ -4,7 +4,7 @@ A compendium module for FFXIV TTRPG that includes content from the Standard Rule
 
 This module supports the images supplied by the [FFXIV TTRPG Icons Pack](https://github.com/AxeBane/ffxiv-ttrpg-icons-pack), but you are welcome to use your own instead.
 
-**For installation**, copy the following into Foundry VTT's manual install bar: ``https://github.com/juruka/ffxiv-ttrpg-core-rulebook-compendia/releases/latest/download/module.json``
+**For installation**, copy the following into Foundry VTT's manual install bar: ``https://raw.githubusercontent.com/juruka/ffxiv-ttrpg-core-rulebook-compendia/main/module.json``
 
 ## Translations
 
