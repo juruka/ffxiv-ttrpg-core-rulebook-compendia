@@ -223,8 +223,16 @@
   },
   "description": "<p>This compendium aims to include content from the FFXIV TTRPG Standard Rulebook and Stormblood expansion.</p><p>This module is not a replacement for owning the relevant rulebooks and is merely meant to help facilitate play for GMs who own them. This compendium is not affiliated with Square Enix or any of its subsidiaries in any way shape or form.</p><p>Reach out to AxeBane on the FFXIV TTRPG Fan Discord if you have any questions or concerns.</p>",
   "url": "https://github.com/AxeBane/ffxiv-ttrpg-rulebook-compendia",
+  "languages": [
+    {
+      "lang": "zh-TW",
+      "name": "繁體中文",
+      "path": "lang/zh-TW.json"
+    }
+  ],
   "esmodules": [
     "scripts/compendium-folders.mjs",
-    "scripts/babele.mjs"
+    "scripts/babele.mjs",
+    "scripts/zhtw-converters.mjs"
   ]
 }

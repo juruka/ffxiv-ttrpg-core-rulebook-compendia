@@ -6,7 +6,8 @@ import { getOriginalTranslationKey, translateCompendiumCopies } from "./translat
 Hooks.once("babele.init", async (babele) => {
   Hooks.once("i18nInit", () => {
     const lang = game.settings.get("core", "language");
-    babele.register({ module: "ffxiv-ttrpg-core-rulebook-compendia", lang, dir: `translations/${lang}` });
+    const translationLang = lang.toLowerCase() === "zh-tw" ? "zh-tw" : lang;
+    babele.register({ module: "ffxiv-ttrpg-core-rulebook-compendia", lang, dir: `translations/${translationLang}` });
   });
   babele.registerIdentityExtractors({
     ffxivKey: getContentKey,
